@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&display=swap');
+@font-face {
+    font-family: 'Neutral Face'; 
+    src: url("../fonts/NeutralFace.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto
+}
+.section-header .header-menu .one{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 25px;
+}
+.section-header .header-menu .two{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 25px;
+}
+.section-header .header-menu{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+}
+.section-header .header-menu .one p{
+    font-family: 'Neutral Face';
+    font-size: 14px;
+    line-height: 14px;
+    padding-left: 15px;
+}
+.section-header .header-menu .logo{
+    font-family: 'Neutral Face';
+    font-size: 18px;
+    line-height: 18px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.section-header .header-menu .two i{
+    color: black;
+    padding-right: 30px;
+}
+.section-header .navigation{
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+.section-header .text{
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0 23px 0;
+}
+.section-header .navigation .text a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Neutral Face';
+    font-size: 14px;
+    line-height: 14px;
+
+}
+.section-header .header-info .txt{
+    display: flex;
+    align-items: center;
+    height: 138px;
+    
+    margin-top: 85px;
+    margin-bottom: 45px;
+}
+.section-header .header-info h2{
+    font-family: 'Neutral Face';
+    font-size: 138px;
+}
+.section-header .header-info p{
+    font-family: 'Manrope';
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 75px;
+    font-weight: 700;
+    margin-left: 5px;
+}
+.section-monochrom{
+    margin-top: 167px;
+}
+.section-monochrom .title .h2{
+    font-family: 'Neutral Face';
+    font-size: 70px;
+}
+.section-monochrom .container .title h2{
+    font-family: 'Neutral Face'
+}
+.section-monochrom .container .title .monochrom-info .one p{
+    font-family: 'Manrope';
+}
+.section-monochrom .container .title h2{
+    font-family: 'Neutral Face';
+    margin-top: 50px;
+    font-size: 60px;
+}
